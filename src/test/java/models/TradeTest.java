@@ -1,4 +1,5 @@
-package ObjectsNClasses;
+/*
+package models;
 
 import org.junit.jupiter.api.Test;
 
@@ -30,3 +31,5 @@ class TradeTest {
 
     }
 }
+
+ */

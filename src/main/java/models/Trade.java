@@ -1,10 +1,13 @@
-package ObjectsNClasses;
+package models;
 
-public class Trade {
+import java.time.LocalDate;
+
+public abstract class Trade {
     private final String id;
     private final String symbol;
     private final int quantity;
     private double price;
+    private LocalDate tradeDate;
 
     public Trade(String id, String symbol, int quantity, double price) {
         this.id = id;
@@ -24,12 +27,22 @@ public class Trade {
         this.price = price;
     }
 
+    public abstract double calcDividend();
+
     public double getPrice() {
         return price;
     }
 
     public int getQuantity() {
         return quantity;
+    }
+
+    public LocalDate getTradeDate() {
+        return tradeDate;
+    }
+
+    public void setTradeDate(LocalDate tradeDate) {
+        this.tradeDate = tradeDate;
     }
 
     @Override

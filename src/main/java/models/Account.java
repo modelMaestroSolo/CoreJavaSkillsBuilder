@@ -1,4 +1,4 @@
-package ObjectsNClasses;
+package models;
 
 public class Account {
     private double value;

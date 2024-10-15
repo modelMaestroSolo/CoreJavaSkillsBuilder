@@ -1,4 +1,4 @@
-package ObjectsNClasses;
+package models;
 
 public class Trader {
 

@@ -1,6 +1,7 @@
-import ObjectsNClasses.Account;
-import ObjectsNClasses.Trade;
-import ObjectsNClasses.Trader;
+import models.Account;
+import models.BondTrade;
+import models.Trade;
+import models.Trader;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +12,8 @@ public class Main {
     public static void ObjectsNClasses(){
         System.out.println("Objects and Classes");
         System.out.println("******************************");
-        Trade trade = new Trade("1", "GOOGL", 10, 12.0);
+       // Trade trade = new Trade("1", "GOOGL", 10, 12.0);
+        Trade trade = new BondTrade("1", "GOOGL", 10, 12,30.0);
         System.out.printf("trade has quantity %d and price %f.%n",
                            trade.getQuantity(),
                             trade.getPrice());
