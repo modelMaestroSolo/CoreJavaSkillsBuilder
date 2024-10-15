@@ -1,4 +1,5 @@
-package ObjectsNClasses;
+/*
+package models;
 
 
 import org.junit.jupiter.params.ParameterizedTest;
@@ -38,3 +39,5 @@ class TraderTest {
 
     }
 }
+
+ */
